@@ -1,0 +1,26 @@
+{
+  poll: {
+    creator: 'thanhdevtest.testnet',
+    poll_id: 'ESBhq3Lpf9dvJbBQiibwiumdi4TfSzg5vmFeQpJfwg3X',
+    question: 'ngu ngu ',
+    variants: [
+      { option_id: 'v1', message: 'create_tor' },
+      { option_id: 'v2', message: 'freelancer' }
+    ],
+    start: 1,
+    end: 16712605370000000000,
+    budget: '1900000000000000000000'
+  },
+  results: {
+    poll_id: 'ESBhq3Lpf9dvJbBQiibwiumdi4TfSzg5vmFeQpJfwg3X',
+    variants: { v1: 426000000000000000000, v2: 123000000000000000000 },
+    voted: {
+      'thanh-st1.thanhdevtest.testnet': { option_id: 'v2', quantity: 123000000000000000000 },
+      'thanhdevtest.testnet': { option_id: 'v1', quantity: 426000000000000000000 }
+    },
+    total_voted_stake: 549000000000000000000
+  }
+}
+
+
+"/"/"
